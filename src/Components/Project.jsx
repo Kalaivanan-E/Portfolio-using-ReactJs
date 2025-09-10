@@ -1,8 +1,10 @@
 
 import React from 'react'
 
-export const Project = () => {
+ const Project = () => {
   return (
     <div>Projects</div>
   )
 }
+
+export default Project;

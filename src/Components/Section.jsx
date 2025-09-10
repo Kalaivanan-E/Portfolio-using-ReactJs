@@ -15,7 +15,7 @@ const Section = () => {
                 <h1 className='mb-4'> Full Stack Developer</h1>
 
                 <button className='btn btn-primary'>Contact</button>
-                <button className='btn  btn-primary' id='cv'>Download CV</button>
+                <a href="/resume.pdf"  download="Kalaivanan_Resume.pdf" className="btn btn-primary" id="cv"> Download CV </a>                
             </div> 
 
             <div className="col-6 d-flex justify-content-center align-items-center">
@@ -50,7 +50,3 @@ export default Section;
 
 
 
-
-// <div className="col-6 d-flex justify-content-center align-items-center">
-//                 <img src={profilePic} alt="me" />
-//             </div>

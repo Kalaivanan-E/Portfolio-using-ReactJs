@@ -4,7 +4,7 @@ import { NavLink } from 'react-router';
 function Navbar() {
     return (
         <div>
-            <nav className='navbar navbar-expand-lg border' id='navbar'>
+            <nav className='navbar navbar-expand-lg border bg-primary' id='navbar'>
                 <NavLink to='/index' className='navbar navbar-brand text-white' id='Logo'> Kalaivanan</NavLink>
                 <div className=' navbar navbar ml-auto'>
                     <ul className='navbar-nav'>

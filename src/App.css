@@ -1,30 +1,38 @@
-
+ 
     #navbar {
   position: fixed;
   background-color: rgb(60, 92, 222);
   border-radius: 5px;
   
   width: 100%;
-  z-index: 500; /* keeps navbar on top */
+  z-index: 500; 
+}
+    
+.homebg {
+  background-image: url("https://i.pinimg.com/736x/14/74/89/14748961d5c979e3cdda1b70d766ea6d.jpg");
+   background-size: cover;      /*  Make the image cover the section */
+   background-position: center; /*  Center the image */
+  background-repeat: no-repeat; /*  Prevent tiling */
+   min-height: 90vh;          /*   Full screen height */
+    padding-top: 69px;        /*    Push content below the fixed navbar */
 }
 
+   #navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-    /* .img{
-    margin-top: 50px;
-    border-radius: 50%;
-    height: 60%;
-    width: 80%;
-    margin-right: 40px;
-    margin-left: 50px;
-} */
+   
      #footer{
-        margin-top: 40px;
+        margin-top: 50px;
      }
      #cv{
         width: 150px;
         height: 12%;
         font-size: 20px;
         border-radius: 8px;
+        
         margin-left: 25px;
      }
     #Logo{
@@ -57,8 +65,25 @@
         font-size: 20px;
         font-weight: bold;
         color: white;
+        text-decoration: none;
+         /* color: black; */
+         padding-bottom: 5px;
+         position: relative;
     }
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: blue; /* underline color */
+        transition: width 0.3s;
+}
     .nav-link:hover{
-        color: black;
+        color: rgb(0, 0, 0);
         transition: 1.5s;
     }
+    .nav-link:hover::after {
+  width: 100%; /* underline appears on hover */
+}
