@@ -19,7 +19,7 @@ const Section = () => {
             </div> 
 
             <div className="col-6 d-flex justify-content-center align-items-center">
-                <img src={profilePic} alt="me" className='' style={{width:'450px',height:'450px',objectFit:"cover",borderRadius:"80px",marginLeft:'150px'}} />
+                <img src={profilePic} alt="me" className='' style={{width:'450px',height:'450px',objectFit:"cover",borderRadius:"80px",marginLeft:'150px' }} />
             </div>          
         </div>
 

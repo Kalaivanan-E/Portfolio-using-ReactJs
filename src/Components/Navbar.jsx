@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div>
             <nav className='navbar navbar-expand-lg border' id='navbar'>
-                <NavLink to='/index' className='navbar navbar-brand text-dark' id='Logo'> Kalaivanan</NavLink>
+                <NavLink to='/index' className='navbar navbar-brand text-white' id='Logo'> Kalaivanan</NavLink>
                 <div className=' navbar navbar ml-auto'>
                     <ul className='navbar-nav'>
                         <li><NavLink to='/index' className='nav-link'> Home</NavLink></li>
