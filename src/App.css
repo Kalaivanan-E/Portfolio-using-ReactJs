@@ -1,19 +1,22 @@
  
+
     #navbar {
   position: fixed;
   background-color: rgb(60, 92, 222);
   border-radius: 5px;
-  
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 500; 
+  margin-top: 0 !important;
 }
     
 .homebg {
   background-image: url("https://i.pinimg.com/736x/14/74/89/14748961d5c979e3cdda1b70d766ea6d.jpg");
    background-size: cover;      /*  Make the image cover the section */
    background-position: center; /*  Center the image */
-  background-repeat: no-repeat; /*  Prevent tiling */
-   min-height: 90vh;          /*   Full screen height */
+    background-repeat: no-repeat; /*  Prevent tiling */
+   min-height: 100vh;          /*   Full screen height */
     padding-top: 69px;        /*    Push content below the fixed navbar */
 }
 
@@ -25,7 +28,7 @@
 
    
      #footer{
-        margin-top: 50px;
+        margin-top: 10px;
      }
      #cv{
         width: 150px;

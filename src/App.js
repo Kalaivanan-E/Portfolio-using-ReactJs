@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Router, Routes } from "react-router";
 import Navbar from "./Components/Navbar";
-import Section from "./Components/Section";
+// import Section from "./Components/Section";
 import  Home  from "./Components/Home";
 import  About  from "./Components/About";
 import  Skills  from "./Components/Skills";
@@ -16,8 +16,7 @@ function App() {
         <Navbar/>
         
         <div className="homebg">
-        {/* <Section/> */}
-        <Section/>
+        
         
 
         <Routes>
