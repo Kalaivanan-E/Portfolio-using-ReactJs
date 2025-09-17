@@ -15,7 +15,7 @@ const Home = () => {
                 <h1 className='mb-4'> Full Stack Developer</h1>
 
                 <button className='btn btn-primary'>Contact</button>
-                <a href="/resume.pdf"  download="Kalaivanan_Resume.pdf" className="btn btn-primary" id="cv"> Download CV </a>                
+                <a href="/resume.pdf"  download="Kalaivanan resume.pdf" className="btn btn-primary" id="cv"> Download CV </a>                
             </div> 
 
             <div className="col-6 d-flex justify-content-center align-items-center">
