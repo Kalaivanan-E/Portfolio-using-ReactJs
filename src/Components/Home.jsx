@@ -14,7 +14,7 @@ const Home = () => {
                 <h1 className='mb-4'> I'm <span className='text-primary'>Kalaivanan </span></h1>
                 <h1 className='mb-4'> Full Stack Developer</h1>
 
-                <button className='btn btn-primary'>Contact</button>
+              <NavLink to='/contact'> <button className='btn btn-primary'>Contact</button> </NavLink>
                 <a href="/resume.pdf"  download="Kalaivanan resume.pdf" className="btn btn-primary" id="cv"> Download CV </a>                
             </div> 
 
