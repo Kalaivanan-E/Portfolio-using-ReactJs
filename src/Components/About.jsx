@@ -10,8 +10,9 @@ const About = () => {
           className="text-center fw-bold text-primary"
           style={{
             color: "blue",
-            fontSize: "40px",
+            fontSize: "35px",
             marginBottom: "50px",
+            fontWeight:'bold'
           }}
         >
           About
