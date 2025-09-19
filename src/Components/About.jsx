@@ -3,7 +3,7 @@ import profilePic from '../assets/img.jpg'// update path to your image
 
 const About = () => {
   return (
-    <section className="about py-5">
+    <section className="about-section py-5">
       <div className="container">
         {/* Title */}
         <h2

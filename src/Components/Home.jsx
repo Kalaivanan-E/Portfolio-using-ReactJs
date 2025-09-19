@@ -5,7 +5,7 @@ import profilePic from '../assets/img.jpg'
 
 const Home = () => {
   return (
-    <div>
+    <div id='home' className='home-section'>
     
       <div className="container">
         <div className="row">

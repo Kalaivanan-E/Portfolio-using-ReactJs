@@ -3,8 +3,8 @@ import Navbar from "./Components/Navbar";
 import  Home  from "./Components/Home";
 import  About  from "./Components/About";
 import  Skills  from "./Components/Skills";
+import  Project  from "./Components/Project";
 import  Contact  from "./Components/Contact";
-import Project from "./Components/Project";
 
 
 function App() {
@@ -17,15 +17,12 @@ function App() {
         
         
         <div className="homebg">
-        
-        
-
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/index" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/skills" element={<Skills/>} />
-          <Route path="/project" element={<Project/>} />
+          <Route path="/projects" element={<Project/>} />
           <Route path="/contact" element={<Contact/>} />
 
         </Routes>
