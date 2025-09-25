@@ -1,0 +1,30 @@
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#projectcard:hover > :not(:hover) {
+  opacity: 0.3;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 200px;       /* fixed height for uniform look */
+  object-fit: cover;   /* crop nicely */
+  display: block;
+}
+
+.card-body .btn {
+  margin-top: auto;       /* pushes button to bottom */
+  width: 100%;            /* make button full width */
+  border-radius: 8px;
+}
